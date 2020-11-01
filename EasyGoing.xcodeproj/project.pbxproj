@@ -101,6 +101,7 @@
 		542E2603254E1BB000413BEC /* EasyGoing */ = {
 			isa = PBXGroup;
 			children = (
+				542E263A254E2DD600413BEC /* Login */,
 				542E2604254E1BB000413BEC /* AppDelegate.swift */,
 				542E2606254E1BB000413BEC /* SceneDelegate.swift */,
 				542E2608254E1BB000413BEC /* ViewController.swift */,
@@ -129,6 +130,13 @@
 				542E262B254E1BB500413BEC /* Info.plist */,
 			);
 			path = EasyGoingUITests;
+			sourceTree = "<group>";
+		};
+		542E263A254E2DD600413BEC /* Login */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Login;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
