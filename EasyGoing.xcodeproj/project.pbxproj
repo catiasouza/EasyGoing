@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DA483C508FDB4C5C16DCB1D /* Pods_EasyGoing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B0DE103FA0F94A12DF1DB7 /* Pods_EasyGoing.framework */; };
 		542E2605254E1BB000413BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E2604254E1BB000413BEC /* AppDelegate.swift */; };
 		542E2607254E1BB000413BEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E2606254E1BB000413BEC /* SceneDelegate.swift */; };
-		542E2609254E1BB000413BEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E2608254E1BB000413BEC /* ViewController.swift */; };
+		542E2609254E1BB000413BEC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E2608254E1BB000413BEC /* LoginVC.swift */; };
 		542E260C254E1BB000413BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542E260A254E1BB000413BEC /* Main.storyboard */; };
 		542E260F254E1BB000413BEC /* EasyGoing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 542E260D254E1BB000413BEC /* EasyGoing.xcdatamodeld */; };
 		542E2611254E1BB500413BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542E2610254E1BB500413BEC /* Assets.xcassets */; };
 		542E2614254E1BB500413BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542E2612254E1BB500413BEC /* LaunchScreen.storyboard */; };
 		542E261F254E1BB500413BEC /* EasyGoingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E261E254E1BB500413BEC /* EasyGoingTests.swift */; };
 		542E262A254E1BB500413BEC /* EasyGoingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E2629254E1BB500413BEC /* EasyGoingUITests.swift */; };
+		6FA342D8241DFB2EFE23117E /* Pods_EasyGoing_EasyGoingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7D0126AD785297C79A984F /* Pods_EasyGoing_EasyGoingUITests.framework */; };
+		89F9E21443E884E4D913AC10 /* Pods_EasyGoingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945B75A3FA6F94FB292B430B /* Pods_EasyGoingTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +39,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		001ABA589666CE3C730DA39A /* Pods-EasyGoing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyGoing.debug.xcconfig"; path = "Target Support Files/Pods-EasyGoing/Pods-EasyGoing.debug.xcconfig"; sourceTree = "<group>"; };
+		0A767BFCB9128D42A6730CF9 /* Pods-EasyGoing-EasyGoingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyGoing-EasyGoingUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyGoing-EasyGoingUITests/Pods-EasyGoing-EasyGoingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4B7D0126AD785297C79A984F /* Pods_EasyGoing_EasyGoingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyGoing_EasyGoingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		542E2601254E1BB000413BEC /* EasyGoing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyGoing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542E2604254E1BB000413BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		542E2606254E1BB000413BEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		542E2608254E1BB000413BEC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		542E2608254E1BB000413BEC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		542E260B254E1BB000413BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		542E260E254E1BB000413BEC /* EasyGoing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyGoing.xcdatamodel; sourceTree = "<group>"; };
 		542E2610254E1BB500413BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		542E2625254E1BB500413BEC /* EasyGoingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyGoingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		542E2629254E1BB500413BEC /* EasyGoingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyGoingUITests.swift; sourceTree = "<group>"; };
 		542E262B254E1BB500413BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62B0DE103FA0F94A12DF1DB7 /* Pods_EasyGoing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyGoing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78D1DF8D12D294B5D402D355 /* Pods-EasyGoing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyGoing.release.xcconfig"; path = "Target Support Files/Pods-EasyGoing/Pods-EasyGoing.release.xcconfig"; sourceTree = "<group>"; };
+		8F30F95902B68D064B1509F9 /* Pods-EasyGoingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyGoingTests.release.xcconfig"; path = "Target Support Files/Pods-EasyGoingTests/Pods-EasyGoingTests.release.xcconfig"; sourceTree = "<group>"; };
+		945B75A3FA6F94FB292B430B /* Pods_EasyGoingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyGoingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		96B3F535B28526E48DC05940 /* Pods-EasyGoing-EasyGoingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyGoing-EasyGoingUITests.debug.xcconfig"; path = "Target Support Files/Pods-EasyGoing-EasyGoingUITests/Pods-EasyGoing-EasyGoingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F629FBCC3466BF54E662E45E /* Pods-EasyGoingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyGoingTests.debug.xcconfig"; path = "Target Support Files/Pods-EasyGoingTests/Pods-EasyGoingTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DA483C508FDB4C5C16DCB1D /* Pods_EasyGoing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				89F9E21443E884E4D913AC10 /* Pods_EasyGoingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FA342D8241DFB2EFE23117E /* Pods_EasyGoing_EasyGoingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				542E261D254E1BB500413BEC /* EasyGoingTests */,
 				542E2628254E1BB500413BEC /* EasyGoingUITests */,
 				542E2602254E1BB000413BEC /* Products */,
+				C2C29833C7ED1651A7A94720 /* Pods */,
+				82BF48D1D3E27F53E4F6E82B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +121,6 @@
 				542E263A254E2DD600413BEC /* Login */,
 				542E2604254E1BB000413BEC /* AppDelegate.swift */,
 				542E2606254E1BB000413BEC /* SceneDelegate.swift */,
-				542E2608254E1BB000413BEC /* ViewController.swift */,
 				542E260A254E1BB000413BEC /* Main.storyboard */,
 				542E2610254E1BB500413BEC /* Assets.xcassets */,
 				542E2612254E1BB500413BEC /* LaunchScreen.storyboard */,
@@ -135,8 +151,33 @@
 		542E263A254E2DD600413BEC /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				542E2608254E1BB000413BEC /* LoginVC.swift */,
 			);
 			path = Login;
+			sourceTree = "<group>";
+		};
+		82BF48D1D3E27F53E4F6E82B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				62B0DE103FA0F94A12DF1DB7 /* Pods_EasyGoing.framework */,
+				4B7D0126AD785297C79A984F /* Pods_EasyGoing_EasyGoingUITests.framework */,
+				945B75A3FA6F94FB292B430B /* Pods_EasyGoingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2C29833C7ED1651A7A94720 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				001ABA589666CE3C730DA39A /* Pods-EasyGoing.debug.xcconfig */,
+				78D1DF8D12D294B5D402D355 /* Pods-EasyGoing.release.xcconfig */,
+				96B3F535B28526E48DC05940 /* Pods-EasyGoing-EasyGoingUITests.debug.xcconfig */,
+				0A767BFCB9128D42A6730CF9 /* Pods-EasyGoing-EasyGoingUITests.release.xcconfig */,
+				F629FBCC3466BF54E662E45E /* Pods-EasyGoingTests.debug.xcconfig */,
+				8F30F95902B68D064B1509F9 /* Pods-EasyGoingTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,9 +187,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 542E262E254E1BB500413BEC /* Build configuration list for PBXNativeTarget "EasyGoing" */;
 			buildPhases = (
+				F1EA311F968903058EBB76CB /* [CP] Check Pods Manifest.lock */,
 				542E25FD254E1BB000413BEC /* Sources */,
 				542E25FE254E1BB000413BEC /* Frameworks */,
 				542E25FF254E1BB000413BEC /* Resources */,
+				BBF0C66F3B8E2FE3439946F1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -163,6 +206,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 542E2631254E1BB500413BEC /* Build configuration list for PBXNativeTarget "EasyGoingTests" */;
 			buildPhases = (
+				4F228C9B0C185D1F9EFFFF6D /* [CP] Check Pods Manifest.lock */,
 				542E2616254E1BB500413BEC /* Sources */,
 				542E2617254E1BB500413BEC /* Frameworks */,
 				542E2618254E1BB500413BEC /* Resources */,
@@ -181,9 +225,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 542E2634254E1BB500413BEC /* Build configuration list for PBXNativeTarget "EasyGoingUITests" */;
 			buildPhases = (
+				205214B9853A01065CA8AEDB /* [CP] Check Pods Manifest.lock */,
 				542E2621254E1BB500413BEC /* Sources */,
 				542E2622254E1BB500413BEC /* Frameworks */,
 				542E2623254E1BB500413BEC /* Resources */,
+				93ABEAD682C6971E577ECC3F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -264,13 +310,116 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		205214B9853A01065CA8AEDB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyGoing-EasyGoingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F228C9B0C185D1F9EFFFF6D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyGoingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		93ABEAD682C6971E577ECC3F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyGoing-EasyGoingUITests/Pods-EasyGoing-EasyGoingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyGoing-EasyGoingUITests/Pods-EasyGoing-EasyGoingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyGoing-EasyGoingUITests/Pods-EasyGoing-EasyGoingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBF0C66F3B8E2FE3439946F1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyGoing/Pods-EasyGoing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EasyGoing/Pods-EasyGoing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EasyGoing/Pods-EasyGoing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F1EA311F968903058EBB76CB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyGoing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		542E25FD254E1BB000413BEC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				542E260F254E1BB000413BEC /* EasyGoing.xcdatamodeld in Sources */,
-				542E2609254E1BB000413BEC /* ViewController.swift in Sources */,
+				542E2609254E1BB000413BEC /* LoginVC.swift in Sources */,
 				542E2605254E1BB000413BEC /* AppDelegate.swift in Sources */,
 				542E2607254E1BB000413BEC /* SceneDelegate.swift in Sources */,
 			);
@@ -445,6 +594,7 @@
 		};
 		542E262F254E1BB500413BEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 001ABA589666CE3C730DA39A /* Pods-EasyGoing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -464,6 +614,7 @@
 		};
 		542E2630254E1BB500413BEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78D1DF8D12D294B5D402D355 /* Pods-EasyGoing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -483,6 +634,7 @@
 		};
 		542E2632254E1BB500413BEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F629FBCC3466BF54E662E45E /* Pods-EasyGoingTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +657,7 @@
 		};
 		542E2633254E1BB500413BEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F30F95902B68D064B1509F9 /* Pods-EasyGoingTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -527,6 +680,7 @@
 		};
 		542E2635254E1BB500413BEC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B3F535B28526E48DC05940 /* Pods-EasyGoing-EasyGoingUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -547,6 +701,7 @@
 		};
 		542E2636254E1BB500413BEC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A767BFCB9128D42A6730CF9 /* Pods-EasyGoing-EasyGoingUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

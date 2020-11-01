@@ -1,0 +1,6 @@
+framework module Pods_EasyGoing_EasyGoingUITests {
+  umbrella header "Pods-EasyGoing-EasyGoingUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
