@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		142075512554C95E00C473B0 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 142075502554C95E00C473B0 /* HomeVC.swift */; };
 		4DA483C508FDB4C5C16DCB1D /* Pods_EasyGoing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B0DE103FA0F94A12DF1DB7 /* Pods_EasyGoing.framework */; };
 		542E2605254E1BB000413BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E2604254E1BB000413BEC /* AppDelegate.swift */; };
 		542E2607254E1BB000413BEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E2606254E1BB000413BEC /* SceneDelegate.swift */; };
@@ -41,6 +42,7 @@
 /* Begin PBXFileReference section */
 		001ABA589666CE3C730DA39A /* Pods-EasyGoing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyGoing.debug.xcconfig"; path = "Target Support Files/Pods-EasyGoing/Pods-EasyGoing.debug.xcconfig"; sourceTree = "<group>"; };
 		0A767BFCB9128D42A6730CF9 /* Pods-EasyGoing-EasyGoingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyGoing-EasyGoingUITests.release.xcconfig"; path = "Target Support Files/Pods-EasyGoing-EasyGoingUITests/Pods-EasyGoing-EasyGoingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		142075502554C95E00C473B0 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		4B7D0126AD785297C79A984F /* Pods_EasyGoing_EasyGoingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyGoing_EasyGoingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		542E2601254E1BB000413BEC /* EasyGoing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyGoing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542E2604254E1BB000413BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -93,6 +95,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1420754F2554C8FF00C473B0 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				142075502554C95E00C473B0 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		542E25F8254E1BB000413BEC = {
 			isa = PBXGroup;
 			children = (
@@ -118,6 +128,7 @@
 		542E2603254E1BB000413BEC /* EasyGoing */ = {
 			isa = PBXGroup;
 			children = (
+				1420754F2554C8FF00C473B0 /* Home */,
 				542E263A254E2DD600413BEC /* Login */,
 				542E2604254E1BB000413BEC /* AppDelegate.swift */,
 				542E2606254E1BB000413BEC /* SceneDelegate.swift */,
@@ -418,6 +429,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				542E260F254E1BB000413BEC /* EasyGoing.xcdatamodeld in Sources */,
+				142075512554C95E00C473B0 /* HomeVC.swift in Sources */,
 				542E2609254E1BB000413BEC /* LoginVC.swift in Sources */,
 				542E2605254E1BB000413BEC /* AppDelegate.swift in Sources */,
 				542E2607254E1BB000413BEC /* SceneDelegate.swift in Sources */,

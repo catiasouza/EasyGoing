@@ -8,14 +8,45 @@
 import UIKit
 
 class HomeVC: UIViewController {
-
+    
+    @IBOutlet weak var homeImageView: UIImageView!
+    
+    @IBOutlet weak var logoutBoutton: UIButton!
+    
+    @IBOutlet weak var logoImageView: UIImageView!
+    
+    @IBOutlet weak var meditacaoButton: UIButton!
+    
+    @IBOutlet weak var yogabutton: UIButton!
+    
+    @IBOutlet weak var motivacaoButton: UIButton!
+    
+    @IBOutlet weak var facebookButton: UIButton!
+    
+    @IBOutlet weak var instagramButton: UIButton!
+    
+    @IBOutlet weak var twitterButton: UIButton!
+    
+    @IBOutlet weak var compartilheLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
     
+    
 
+    @IBAction func yogabutton(_ sender: UIButton) {
+    }
+    
+    
+    
+    @IBAction func meditacaoButton(_ sender: UIButton) {
+    }
+    
+    @IBAction func motivacaoButton(_ sender: UIButton) {
+    }
     /*
     // MARK: - Navigation
 
