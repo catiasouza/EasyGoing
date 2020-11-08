@@ -31,11 +31,21 @@ class HomeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.configButton()
+        
 
         // Do any additional setup after loading the view.
     }
     
-    
+    func configButton(){
+           yogabutton.layer.cornerRadius = 20
+           yogabutton.layer.masksToBounds = true
+        motivacaoButton.layer.cornerRadius = 20
+        motivacaoButton.layer.masksToBounds = true
+        meditacaoButton.layer.cornerRadius = 20
+        meditacaoButton.layer.masksToBounds = true
+        
+       }
 
     @IBAction func yogabutton(_ sender: UIButton) {
     }

@@ -171,7 +171,7 @@
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="grm-pm-tq1">
                                         <rect key="frame" x="0.0" y="0.0" width="302" height="100"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.45098039215686275" green="0.22745098039215686" blue="0.53333333333333333" alpha="0.79361087328767121" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="Y3o-bM-c42"/>
                                         </constraints>
@@ -185,7 +185,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IR9-bA-Vn0">
                                         <rect key="frame" x="0.0" y="118" width="302" height="100"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.45098039215686275" green="0.22745098039215686" blue="0.53333333333333333" alpha="0.79540346746575341" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="yUV-38-Afr"/>
                                         </constraints>
@@ -199,7 +199,7 @@
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aS4-wg-KRl">
                                         <rect key="frame" x="0.0" y="236" width="302" height="100"/>
-                                        <color key="backgroundColor" systemColor="systemPurpleColor" red="0.68627450980000004" green="0.32156862749999998" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="backgroundColor" red="0.45098039215686275" green="0.22745098039215686" blue="0.53333333333333333" alpha="0.7990421660958904" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="100" id="vFZ-oB-cH4"/>
                                         </constraints>
@@ -214,7 +214,7 @@
                                 </subviews>
                             </stackView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Compartilhe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="teT-w2-stL">
-                                <rect key="frame" x="61" y="588" width="292" height="26"/>
+                                <rect key="frame" x="61" y="754" width="292" height="26"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="26" id="HNB-Xk-xCX"/>
                                 </constraints>
@@ -223,19 +223,19 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="top" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="fNr-qi-Nws">
-                                <rect key="frame" x="80" y="634" width="254" height="50"/>
+                                <rect key="frame" x="80" y="790" width="254" height="50"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p4j-CI-0n0">
                                         <rect key="frame" x="0.0" y="0.0" width="73.5" height="50"/>
-                                        <state key="normal" backgroundImage="facebook.azul"/>
+                                        <state key="normal" backgroundImage="Facebook.roxo"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LKe-je-rKL">
                                         <rect key="frame" x="90.5" y="0.0" width="73" height="50"/>
-                                        <state key="normal" backgroundImage="Instagram.azul"/>
+                                        <state key="normal" backgroundImage="Instagram.roxo"/>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXH-UA-WbM">
                                         <rect key="frame" x="180.5" y="0.0" width="73.5" height="50"/>
-                                        <state key="normal" backgroundImage="Twitter.azul"/>
+                                        <state key="normal" backgroundImage="Twitter.roxo"/>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -249,20 +249,20 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="wal-BO-upD" firstAttribute="trailing" secondItem="teT-w2-stL" secondAttribute="trailing" constant="61" id="6R6-ep-aUD"/>
+                            <constraint firstItem="wal-BO-upD" firstAttribute="bottom" secondItem="fNr-qi-Nws" secondAttribute="bottom" constant="22" id="5Wj-bv-Fy7"/>
                             <constraint firstItem="0Tc-pa-Ibr" firstAttribute="top" secondItem="bAW-bh-1Oc" secondAttribute="bottom" constant="25" id="9DX-fG-Jac"/>
-                            <constraint firstItem="teT-w2-stL" firstAttribute="top" secondItem="0Tc-pa-Ibr" secondAttribute="bottom" constant="40" id="9dx-ad-d8s"/>
-                            <constraint firstItem="fNr-qi-Nws" firstAttribute="leading" secondItem="wal-BO-upD" secondAttribute="leading" constant="80" id="DLy-Zh-8W7"/>
                             <constraint firstItem="bAW-bh-1Oc" firstAttribute="leading" secondItem="wal-BO-upD" secondAttribute="leading" constant="117" id="Ejk-dc-N2X"/>
                             <constraint firstItem="wal-BO-upD" firstAttribute="trailing" secondItem="Bwm-lt-Im6" secondAttribute="trailing" constant="36" id="Gd4-7g-H53"/>
                             <constraint firstItem="wal-BO-upD" firstAttribute="trailing" secondItem="bAW-bh-1Oc" secondAttribute="trailing" constant="117" id="JXR-wX-sR3"/>
                             <constraint firstItem="bAW-bh-1Oc" firstAttribute="top" secondItem="wal-BO-upD" secondAttribute="top" constant="15" id="OhE-Vx-id8"/>
-                            <constraint firstItem="fNr-qi-Nws" firstAttribute="top" secondItem="teT-w2-stL" secondAttribute="bottom" constant="20" id="Rf5-Hc-DMy"/>
-                            <constraint firstItem="wal-BO-upD" firstAttribute="trailing" secondItem="fNr-qi-Nws" secondAttribute="trailing" constant="80" id="VBJ-ny-hKw"/>
+                            <constraint firstItem="wal-BO-upD" firstAttribute="trailing" secondItem="teT-w2-stL" secondAttribute="trailing" constant="61" id="SCA-8o-dNd"/>
+                            <constraint firstItem="fNr-qi-Nws" firstAttribute="leading" secondItem="wal-BO-upD" secondAttribute="leading" constant="80" id="T8E-DG-qrv"/>
+                            <constraint firstItem="wal-BO-upD" firstAttribute="trailing" secondItem="fNr-qi-Nws" secondAttribute="trailing" constant="80" id="Vsd-3y-3Cc"/>
                             <constraint firstItem="QUV-zC-wEX" firstAttribute="top" secondItem="N5b-50-fsi" secondAttribute="top" id="YPV-EF-9ac"/>
+                            <constraint firstItem="teT-w2-stL" firstAttribute="leading" secondItem="wal-BO-upD" secondAttribute="leading" constant="61" id="Zko-nF-CbT"/>
                             <constraint firstItem="0Tc-pa-Ibr" firstAttribute="leading" secondItem="wal-BO-upD" secondAttribute="leading" constant="56" id="aaC-Xr-e0h"/>
                             <constraint firstItem="QUV-zC-wEX" firstAttribute="leading" secondItem="wal-BO-upD" secondAttribute="leading" id="gx0-ga-a5N"/>
-                            <constraint firstItem="teT-w2-stL" firstAttribute="leading" secondItem="wal-BO-upD" secondAttribute="leading" constant="61" id="i50-oH-Rml"/>
+                            <constraint firstItem="fNr-qi-Nws" firstAttribute="top" secondItem="teT-w2-stL" secondAttribute="bottom" constant="10" id="i4V-VN-2xb"/>
                             <constraint firstItem="QUV-zC-wEX" firstAttribute="trailing" secondItem="wal-BO-upD" secondAttribute="trailing" id="kek-z6-l5V"/>
                             <constraint firstItem="wal-BO-upD" firstAttribute="trailing" secondItem="0Tc-pa-Ibr" secondAttribute="trailing" constant="56" id="s2R-hK-JtK"/>
                             <constraint firstAttribute="bottom" secondItem="QUV-zC-wEX" secondAttribute="bottom" id="vXR-L6-WVm"/>
@@ -285,7 +285,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x3Y-LH-Rtl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="572" y="21"/>
+            <point key="canvasLocation" x="826" y="23"/>
         </scene>
         <!--HomeVC-->
         <scene sceneID="R0c-Ib-MeX">
@@ -391,14 +391,45 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="erM-FF-kHE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2301" y="-18"/>
+            <point key="canvasLocation" x="2220" y="54"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Sjs-EL-qr5">
+            <objects>
+                <viewController id="3qX-PF-sBD" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="a22-p4-N6G">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cadastrou" translatesAutoresizingMaskIntoConstraints="NO" id="XAj-bP-xB9">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <color key="backgroundColor" red="0.4521484375" green="0.22857281569999999" blue="0.53519022459999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="Atf-Ru-cJC" firstAttribute="bottom" secondItem="XAj-bP-xB9" secondAttribute="bottom" id="6xS-cc-dwa"/>
+                            <constraint firstItem="XAj-bP-xB9" firstAttribute="leading" secondItem="Atf-Ru-cJC" secondAttribute="leading" id="U6a-DC-0Ln"/>
+                            <constraint firstItem="Atf-Ru-cJC" firstAttribute="trailing" secondItem="XAj-bP-xB9" secondAttribute="trailing" id="Xhk-tj-p1l"/>
+                            <constraint firstItem="XAj-bP-xB9" firstAttribute="top" secondItem="Atf-Ru-cJC" secondAttribute="top" id="x5e-wb-4JF"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Atf-Ru-cJC"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3ii-2u-9Ff" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1449" y="15"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Facebook.roxo" width="50" height="50"/>
         <image name="Instagram.azul" width="50" height="50"/>
+        <image name="Instagram.roxo" width="50" height="50"/>
         <image name="Logo.EasyGoing" width="320" height="284"/>
         <image name="Twitter.azul" width="50" height="50"/>
+        <image name="Twitter.roxo" width="50" height="50"/>
         <image name="bg-login" width="375" height="812"/>
+        <image name="cadastrou" width="375" height="812"/>
         <image name="facebook.azul" width="50" height="50"/>
         <image name="home.png" width="375" height="812"/>
     </resources>
