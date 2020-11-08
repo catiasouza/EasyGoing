@@ -11,7 +11,7 @@
         <!--CadastroVC-->
         <scene sceneID="p9w-az-JZu">
             <objects>
-                <viewController id="IZ3-6Z-yEU" customClass="CadastroVC" customModule="EasyGoing" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="IZ3-6Z-yEU" customClass="CadastroVC" customModule="EasyGoing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="O5a-xL-k0O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -77,6 +77,7 @@
                                 </state>
                                 <connections>
                                     <action selector="buttonCadastro:" destination="IZ3-6Z-yEU" eventType="touchUpInside" id="ElK-Hs-hqS"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="FAQ-x4-gDH"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="oJU-8g-ukP">
@@ -155,7 +156,7 @@
         <!--Login Vc-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginVc" customModule="EasyGoing" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="LoginVc" customModule="EasyGoing" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -275,6 +276,7 @@
                             <constraint firstItem="tbW-u4-H24" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="sLe-zU-mq6"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="52z-DX-l0F"/>
                     <connections>
                         <outlet property="buttonBack" destination="Kba-FW-SX2" id="cz7-9w-CYn"/>
                         <outlet property="buttonFacebook" destination="IeG-Bh-aZe" id="TwO-4u-HR3"/>
