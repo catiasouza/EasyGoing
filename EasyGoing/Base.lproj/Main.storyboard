@@ -77,7 +77,6 @@
                                 </state>
                                 <connections>
                                     <action selector="buttonCadastro:" destination="IZ3-6Z-yEU" eventType="touchUpInside" id="ElK-Hs-hqS"/>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="FAQ-x4-gDH"/>
                                 </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="oJU-8g-ukP">
