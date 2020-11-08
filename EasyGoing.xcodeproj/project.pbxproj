@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -17,6 +17,7 @@
 		542E2614254E1BB500413BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542E2612254E1BB500413BEC /* LaunchScreen.storyboard */; };
 		542E261F254E1BB500413BEC /* EasyGoingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E261E254E1BB500413BEC /* EasyGoingTests.swift */; };
 		542E262A254E1BB500413BEC /* EasyGoingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E2629254E1BB500413BEC /* EasyGoingUITests.swift */; };
+		54E99E1E255878D6007B10E6 /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E99E1D255878D6007B10E6 /* CadastroVC.swift */; };
 		6FA342D8241DFB2EFE23117E /* Pods_EasyGoing_EasyGoingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7D0126AD785297C79A984F /* Pods_EasyGoing_EasyGoingUITests.framework */; };
 		89F9E21443E884E4D913AC10 /* Pods_EasyGoingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945B75A3FA6F94FB292B430B /* Pods_EasyGoingTests.framework */; };
 /* End PBXBuildFile section */
@@ -57,6 +58,7 @@
 		542E2625254E1BB500413BEC /* EasyGoingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyGoingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		542E2629254E1BB500413BEC /* EasyGoingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyGoingUITests.swift; sourceTree = "<group>"; };
 		542E262B254E1BB500413BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54E99E1D255878D6007B10E6 /* CadastroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
 		62B0DE103FA0F94A12DF1DB7 /* Pods_EasyGoing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyGoing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D1DF8D12D294B5D402D355 /* Pods-EasyGoing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyGoing.release.xcconfig"; path = "Target Support Files/Pods-EasyGoing/Pods-EasyGoing.release.xcconfig"; sourceTree = "<group>"; };
 		8F30F95902B68D064B1509F9 /* Pods-EasyGoingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyGoingTests.release.xcconfig"; path = "Target Support Files/Pods-EasyGoingTests/Pods-EasyGoingTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -118,6 +120,7 @@
 		542E2603254E1BB000413BEC /* EasyGoing */ = {
 			isa = PBXGroup;
 			children = (
+				54E99E1C255878B2007B10E6 /* Cadastro */,
 				542E263A254E2DD600413BEC /* Login */,
 				542E2604254E1BB000413BEC /* AppDelegate.swift */,
 				542E2606254E1BB000413BEC /* SceneDelegate.swift */,
@@ -156,6 +159,14 @@
 			path = Login;
 			sourceTree = "<group>";
 		};
+		54E99E1C255878B2007B10E6 /* Cadastro */ = {
+			isa = PBXGroup;
+			children = (
+				54E99E1D255878D6007B10E6 /* CadastroVC.swift */,
+			);
+			path = Cadastro;
+			sourceTree = "<group>";
+		};
 		82BF48D1D3E27F53E4F6E82B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,7 +187,6 @@
 				F629FBCC3466BF54E662E45E /* Pods-EasyGoingTests.debug.xcconfig */,
 				8F30F95902B68D064B1509F9 /* Pods-EasyGoingTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -420,6 +430,7 @@
 			files = (
 				542E260F254E1BB000413BEC /* EasyGoing.xcdatamodeld in Sources */,
 				542E2609254E1BB000413BEC /* LoginVC.swift in Sources */,
+				54E99E1E255878D6007B10E6 /* CadastroVC.swift in Sources */,
 				542E2605254E1BB000413BEC /* AppDelegate.swift in Sources */,
 				542E2607254E1BB000413BEC /* SceneDelegate.swift in Sources */,
 			);
