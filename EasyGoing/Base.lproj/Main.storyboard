@@ -156,7 +156,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bwm-lt-Im6">
-                                <rect key="frame" x="298" y="57" width="80" height="42"/>
+                                <rect key="frame" x="324" y="49" width="80" height="42"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="80" id="2Aq-J9-Nl9"/>
                                     <constraint firstAttribute="height" constant="42" id="3h8-Qc-v0x"/>
@@ -251,8 +251,8 @@
                         <constraints>
                             <constraint firstItem="wal-BO-upD" firstAttribute="bottom" secondItem="fNr-qi-Nws" secondAttribute="bottom" constant="22" id="5Wj-bv-Fy7"/>
                             <constraint firstItem="0Tc-pa-Ibr" firstAttribute="top" secondItem="bAW-bh-1Oc" secondAttribute="bottom" constant="25" id="9DX-fG-Jac"/>
+                            <constraint firstItem="wal-BO-upD" firstAttribute="trailing" secondItem="Bwm-lt-Im6" secondAttribute="trailing" constant="10" id="ELI-j1-2aT"/>
                             <constraint firstItem="bAW-bh-1Oc" firstAttribute="leading" secondItem="wal-BO-upD" secondAttribute="leading" constant="117" id="Ejk-dc-N2X"/>
-                            <constraint firstItem="wal-BO-upD" firstAttribute="trailing" secondItem="Bwm-lt-Im6" secondAttribute="trailing" constant="36" id="Gd4-7g-H53"/>
                             <constraint firstItem="wal-BO-upD" firstAttribute="trailing" secondItem="bAW-bh-1Oc" secondAttribute="trailing" constant="117" id="JXR-wX-sR3"/>
                             <constraint firstItem="bAW-bh-1Oc" firstAttribute="top" secondItem="wal-BO-upD" secondAttribute="top" constant="15" id="OhE-Vx-id8"/>
                             <constraint firstItem="wal-BO-upD" firstAttribute="trailing" secondItem="teT-w2-stL" secondAttribute="trailing" constant="61" id="SCA-8o-dNd"/>
@@ -263,10 +263,10 @@
                             <constraint firstItem="0Tc-pa-Ibr" firstAttribute="leading" secondItem="wal-BO-upD" secondAttribute="leading" constant="56" id="aaC-Xr-e0h"/>
                             <constraint firstItem="QUV-zC-wEX" firstAttribute="leading" secondItem="wal-BO-upD" secondAttribute="leading" id="gx0-ga-a5N"/>
                             <constraint firstItem="fNr-qi-Nws" firstAttribute="top" secondItem="teT-w2-stL" secondAttribute="bottom" constant="10" id="i4V-VN-2xb"/>
+                            <constraint firstItem="Bwm-lt-Im6" firstAttribute="top" secondItem="wal-BO-upD" secondAttribute="top" constant="5" id="i6O-2a-vDb"/>
                             <constraint firstItem="QUV-zC-wEX" firstAttribute="trailing" secondItem="wal-BO-upD" secondAttribute="trailing" id="kek-z6-l5V"/>
                             <constraint firstItem="wal-BO-upD" firstAttribute="trailing" secondItem="0Tc-pa-Ibr" secondAttribute="trailing" constant="56" id="s2R-hK-JtK"/>
                             <constraint firstAttribute="bottom" secondItem="QUV-zC-wEX" secondAttribute="bottom" id="vXR-L6-WVm"/>
-                            <constraint firstItem="Bwm-lt-Im6" firstAttribute="top" secondItem="wal-BO-upD" secondAttribute="top" constant="13" id="zLy-VQ-yP8"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="wal-BO-upD"/>
                     </view>
