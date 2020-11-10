@@ -10,7 +10,6 @@
 		4DA483C508FDB4C5C16DCB1D /* Pods_EasyGoing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62B0DE103FA0F94A12DF1DB7 /* Pods_EasyGoing.framework */; };
 		542E2605254E1BB000413BEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E2604254E1BB000413BEC /* AppDelegate.swift */; };
 		542E2607254E1BB000413BEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E2606254E1BB000413BEC /* SceneDelegate.swift */; };
-		542E2609254E1BB000413BEC /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E2608254E1BB000413BEC /* LoginVC.swift */; };
 		542E260C254E1BB000413BEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542E260A254E1BB000413BEC /* Main.storyboard */; };
 		542E260F254E1BB000413BEC /* EasyGoing.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 542E260D254E1BB000413BEC /* EasyGoing.xcdatamodeld */; };
 		542E2611254E1BB500413BEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542E2610254E1BB500413BEC /* Assets.xcassets */; };
@@ -46,7 +45,6 @@
 		542E2601254E1BB000413BEC /* EasyGoing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyGoing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		542E2604254E1BB000413BEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		542E2606254E1BB000413BEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		542E2608254E1BB000413BEC /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		542E260B254E1BB000413BEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		542E260E254E1BB000413BEC /* EasyGoing.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EasyGoing.xcdatamodel; sourceTree = "<group>"; };
 		542E2610254E1BB500413BEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -121,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				54E99E1C255878B2007B10E6 /* Cadastro */,
-				542E263A254E2DD600413BEC /* Login */,
 				542E2604254E1BB000413BEC /* AppDelegate.swift */,
 				542E2606254E1BB000413BEC /* SceneDelegate.swift */,
 				542E260A254E1BB000413BEC /* Main.storyboard */,
@@ -149,14 +146,6 @@
 				542E262B254E1BB500413BEC /* Info.plist */,
 			);
 			path = EasyGoingUITests;
-			sourceTree = "<group>";
-		};
-		542E263A254E2DD600413BEC /* Login */ = {
-			isa = PBXGroup;
-			children = (
-				542E2608254E1BB000413BEC /* LoginVC.swift */,
-			);
-			path = Login;
 			sourceTree = "<group>";
 		};
 		54E99E1C255878B2007B10E6 /* Cadastro */ = {
@@ -429,7 +418,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				542E260F254E1BB000413BEC /* EasyGoing.xcdatamodeld in Sources */,
-				542E2609254E1BB000413BEC /* LoginVC.swift in Sources */,
 				54E99E1E255878D6007B10E6 /* CadastroVC.swift in Sources */,
 				542E2605254E1BB000413BEC /* AppDelegate.swift in Sources */,
 				542E2607254E1BB000413BEC /* SceneDelegate.swift in Sources */,
