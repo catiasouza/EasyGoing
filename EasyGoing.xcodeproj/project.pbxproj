@@ -16,6 +16,7 @@
 		542E2614254E1BB500413BEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542E2612254E1BB500413BEC /* LaunchScreen.storyboard */; };
 		542E261F254E1BB500413BEC /* EasyGoingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E261E254E1BB500413BEC /* EasyGoingTests.swift */; };
 		542E262A254E1BB500413BEC /* EasyGoingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542E2629254E1BB500413BEC /* EasyGoingUITests.swift */; };
+		54537E97255B5C3300D37769 /* Cadastro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54537E96255B5C3300D37769 /* Cadastro.storyboard */; };
 		54E99E1E255878D6007B10E6 /* CadastroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54E99E1D255878D6007B10E6 /* CadastroVC.swift */; };
 		6FA342D8241DFB2EFE23117E /* Pods_EasyGoing_EasyGoingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B7D0126AD785297C79A984F /* Pods_EasyGoing_EasyGoingUITests.framework */; };
 		89F9E21443E884E4D913AC10 /* Pods_EasyGoingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 945B75A3FA6F94FB292B430B /* Pods_EasyGoingTests.framework */; };
@@ -56,6 +57,7 @@
 		542E2625254E1BB500413BEC /* EasyGoingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyGoingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		542E2629254E1BB500413BEC /* EasyGoingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyGoingUITests.swift; sourceTree = "<group>"; };
 		542E262B254E1BB500413BEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54537E96255B5C3300D37769 /* Cadastro.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Cadastro.storyboard; sourceTree = "<group>"; };
 		54E99E1D255878D6007B10E6 /* CadastroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CadastroVC.swift; sourceTree = "<group>"; };
 		62B0DE103FA0F94A12DF1DB7 /* Pods_EasyGoing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EasyGoing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D1DF8D12D294B5D402D355 /* Pods-EasyGoing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyGoing.release.xcconfig"; path = "Target Support Files/Pods-EasyGoing/Pods-EasyGoing.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 				542E2612254E1BB500413BEC /* LaunchScreen.storyboard */,
 				542E2615254E1BB500413BEC /* Info.plist */,
 				542E260D254E1BB000413BEC /* EasyGoing.xcdatamodeld */,
+				54537E96255B5C3300D37769 /* Cadastro.storyboard */,
 			);
 			path = EasyGoing;
 			sourceTree = "<group>";
@@ -290,6 +293,7 @@
 				542E2614254E1BB500413BEC /* LaunchScreen.storyboard in Resources */,
 				542E2611254E1BB500413BEC /* Assets.xcassets in Resources */,
 				542E260C254E1BB000413BEC /* Main.storyboard in Resources */,
+				54537E97255B5C3300D37769 /* Cadastro.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
